@@ -1,0 +1,188 @@
+---
+title: 'Geoestadística no paramétrica'
+author: 'Ruben Fernandez-Casal (ruben.fcasal@udc.es)'
+date: '2 de febrero de 2021'
+output:
+  html_document:
+     toc: true
+     # toc_float: true
+     pandoc_args: ["--number-offset", "0,0"]
+---
+
+# Líneas de investigación
+
+Líneas de investigación relacionadas con el modelado no paramétrico de datos espaciales o espacio-temporales
+
+
+## Modelado no paramétrico de la dependencia en procesos estacionarios 
+
+Modelos anisotrópicos de variogramas (no separables) adecuados para el modelado de interacciones espacio-temporales (se pueden considerar dos o más componentes anisotrópicas)
+
+Fernández-Casal, R. (2003). [Geoestadística espacio-temporal: modelos flexibles de variogramas anisotrópicos no separables](https://rubenfcasal.github.io/Geoestadistica_espacio-temporal.pdf). Tesis doctoral (USC). Director: Wenceslao González-Manteiga.
+
+Artículos:
+    
+- Fernandez-Casal R., Gonzalez-Manteiga W. and Febrero-Bande M. (2003). [Flexible Spatio-Temporal Stationary Variogram Models](https://doi.org/10.1023/a:1023204525046), *Statistics and Computing*, **13**, 127-136.
+
+- Fernandez-Casal R., Gonzalez-Manteiga W. and Febrero-Bande M. (2003). [Space‐time dependency modeling using general classes of flexible stationary variogram models](https://doi.org/10.1029/2002jd002909), *Journal of Geophysical Research-Atmospheres*, **108**, 8779, D24.     
+      
+
+## Inferencia sobre la dependencia espacial en la escala espectral
+
+Métodos espectrales para procesos espaciales reticulares estacionarios
+
+En lugar de trabajar en la escala espacial (estimando el covariograma o el variograma), se hace en la escala de frecuencias (considerando el periodograma como estimador de la densidad espectral, la transformada de Fourier del covariograma).
+
+Crujeiras-Casais, R.M. (2007). [Contributions to spectral spatial statistics](http://hdl.handle.net/10347/2286). Phd dissertation (USC). Advisors:	Wenceslao González-Manteiga, Rubén Fernández-Casal.
+
+
+Métodos espectrales para el modelado de la dependencia espacial:
+
+- Crujeiras R.M. and Fernandez-Casal R. (2010).
+[On the estimation of the spectral density for continuous spatial processes](https://doi.org/10.1080/02331880903270313), *Statistics*, **44**, 587-600.
+
+- Fernandez-Casal R. and Crujeiras R.M. (2010). [Spatial dependence estimation using FFT of biased covariances](https://doi.org/10.1016/j.jspi.2010.03.032), *Journal of Statistical Planning and Inference*, **140**, 2653-2668.
+
+Contrastes de bondad de ajuste
+
+- Crujeiras R.M., Fernandez-Casal R. and Gonzalez-Manteiga W. (2010). [Goodness-of-fit tests for the spatial spectral density](https://doi.org/10.1007/s00477-008-0300-0), *Stochastic Environmental Research and Risk Assessment*, **24**,  67-79.
+
+- Crujeiras R.M., Fernandez-Casal R. and Gonzalez-Manteiga W. (2010). [Nonparametric test for separability of spatio-temporal processes](https://doi.org/10.1002/env.1006), *Environmetrics*, **44**, 382-399.
+
+Comparación de estructuras de dependencia. 
+    
+- Crujeiras R.M., Fernandez-Casal R. and Gonzalez-Manteiga W. (2007). [Comparing spatial dependence structures using spectral density estimators](https://doi.org/10.1002/env.879), *Environmetrics*, **18**, 793-808. 
+
+- Crujeiras R.M., Fernandez-Casal R. and Gonzalez-Manteiga W. (2008). [An L2-test for comparing spatial spectral densities](https://doi.org/10.1016/j.spl.2008.02.027), *Statistics and Probability Letters*, **78**, 2543-2551.
+
+
+## Modelado no paramétrico de procesos espaciales no estacionartios
+
+Estimación flexible de la tendencia y del variograma. 
+
+Fernandez-Casal R. (2019). [`npsp`: Nonparametric Spatial Statistics](https://rubenfcasal.github.io/npsp/index.html). R package version 0.7.5.
+
+- [Geoestadistica no parametrica con el paquete `npsp`](https://rubenfcasal.github.io/npsp/articles/docs/aquifer.html)
+
+- [Nonparametric Spatial Data Analysis with the `npsp` Package](https://rubenfcasal.github.io/npsp/articles/npsp.html)
+
+Castillo-Páez, S. (2017). [Aportaciones a la Geoestadística no paramétrica](http://hdl.handle.net/11093/789). Tesis doctoral (UVigo). Directores: Pilar García-Soidán, Rubén Fernández-Casal.
+
+
+### Modelado no paramétrico de la tendencia y del variograma
+
+Artículos:
+
+- García-Soidán P., González-Manteiga W. and Febrero-Bande M. (2003). [Local linear regression estimation of the variogram](https://doi.org/10.1016/S0167-7152(03)00149-4), *Statistics & Probability Letters*, **64**, 169-179.
+
+- Francisco-Fernandez M. and Opsomer J.D. (2005) [Smoothing parameter selection methods for nonparametric regression with spatially correlated errors](https://doi.org/10.1002/cjs.5550330208), *Canadian Journal of Statistics*, **33**, 539-558.
+
+- Fernandez-Casal R. and Francisco-Fernandez M. (2014) [Nonparametric bias-corrected variogram estimation under non-constant trend](https://doi.org/10.1007/s00477-013-0817-8), *Stochastic Environmental Research and Risk Assessment*, **28**, 1247-1259.
+
+Posters:
+
+- Fernandez-Casal R. and Garcia-Soidan P. (2014). [Bandwidth selection for local linear estimation of the spatial trend](./Posters/2014 - Bandwidth Selection for Local Linear Estimation of the Spatial Trend - METMA7.pdf). VII International Workshop on Spatio-Temporal Modelling (METMA7). Turin, Italy.
+
+- Fernandez-Casal R. (2019). [Nonparametric Geostatistics with the npsp Package](./Posters/2019 - Nonparametric Geostatistics with the npsp Package - ECAS19.pdf). ECAS 2019: Statistical Analysis for Space-Time Data. Lisbon, Portugal.
+
+- Fernandez-Casal R. (2019). [Automatic Nonparametric Geostatistical Modeling](./Posters/2019 - Automatic Nonparametric Geostatistical Modeling - SPAT19.pdf). Spatial Statistics Conference 2019: Towards Spatial Data Science. Sitges, Spain.
+
+
+### Boostrap no paramétrico
+
+Métodos boostrap no paramétricos para procesos espaciales y aplicación a la construcción de mapas de riesgo.
+
+- Francisco-Fernandez M., Quintela-del-Rio A. and Fernandez-Casal R. (2011). [A Nonparametric Analysis of the Spatial Distribution of Earthquake Magnitudes](https://doi.org/10.1785/0120100073), *Bulletin of the Seismological Society of America*, **101**, 1660-1673.
+
+- Francisco-Fernandez M., Quintela-del-Rio A. and Fernandez-Casal R. (2012). [Nonparametric methods for spatial regression. An application to seismic events](https://doi.org/10.1002/env.1146),
+*Environmetrics*, **23**, 85-93.  
+
+- Fernández-Casal R., Castillo-Páez S. and Francisco-Fernández M. (2018). [Nonparametric geostatistical risk mapping](https://doi.org/10.1007/s00477-017-1407-y), *Stochastic Environmental Research and Risk Assessment*, *32*, 675–684. 
+
+- Castillo-Páez S., Fernández-Casal R. and García-Soidán P. (2019). [A nonparametric bootstrap method for spatial data](https://doi.org/10.1016/j.csda.2019.01.017), *Computational Statistics and Data Analysis*, **137**, 1-15. 
+
+- Fernández-Casal R., Castillo-Páez S. and Francisco-Fernández M. (2018). [Nonparametric approximation of conditional risk in non-stationary geostatistical processes](./Posters/2018 - Nonparametric approximation of conditional risk in non-stationary geostatistical processes - METMA9). 9th Workshop on Spatio-temporal modeling (METMA 9). Montpellier, France.
+
+
+### Procesos espaciales heterocedásticos
+
+Artículos:
+
+- Fernández-Casal R., Castillo-Páez S. and García-Soidán P. (2017). [Nonparametric estimation of the small-scale variability of heteroscedastic spatial processes](https://doi.org/10.1016/j.spasta.2017.04.001), *Spatial Statistics*, **22**, 358-370.
+    
+- Castillo-Páez S., Fernández-Casal R. and García-Soidán P. (2020). [Nonparametric bootstrap approach for unconditional risk mapping under heteroscedasticity](https://doi.org/10.1016/j.spasta.2019.100389), *Spatial Statistics*, **40**, 100389. 
+
+Posters:
+
+- Fernández-Casal R., Castillo-Páez S. and García-Soidán P. (2016). [Nonparametric estimation of the small-scale variability of heteroscedastic spatial processes](./Posters/2016 - Nonparametric estimation of the small-scale variability of heteroscedastic spatial processes - METMA8.pdf). VII International Workshop on Spatio-Temporal Modelling (METMA8). Valencia, Spain.
+
+- Fernández-Casal R., Castillo-Páez S. and García-Soidán P. (2017). [A nonparametric resampling method for heteroscedastic geostatistical processes](./Posters/2017 - Nonparametric Bootstrap Approach for Risk Mapping under Heteroscedasticity - SPAT17.pdf). Spatial Statistics Conference 2017: One World: One Health. Lancaster, UK.
+
+
+## Temas abiertos
+
+- Métodos geoestadísticos no paramétricos para datos reticulares masivos (*raster*)
+
+    * Estimación no paramétrica del variograma mediante FFT
+
+- Métodos binning en geoestadística no paramétrica
+
+    * Estimación del variograma mediante FFT de datos discretizados (binning)
+    
+    * Predicción kriging empleando binning
+
+- Geoestadística espacio-temporal no paramétrica
+
+
+- Futuras implementaciones en el paquete npsp
+  
+    - Bootstrap condicional e incondicional
+    
+    - Modelos anisotrópicos de semivariograma (caso espacio-temporal)
+    
+    - Modelos aditivos y parcialmente lineales
+    
+    - Kriging local
+
+- ...
+
+# Cursos y recursos docentes
+
+
+Cursos de Introducción a la Estadística con R
+
+- *Introducción a R e R-Commander*. Centro Universitario de Formación e Innovación Educativa (CUFIE). A Coruña, enero de 2013
+
+- *Introducción a la Estadística con R y R-Commander*. CITIC y Centro Oceanográfico de A Coruña. A Coruña, noviembre de 2017.
+
+- Fernández-Casal R., Roca-Pardiñas J. y Costa J. (2019). *Introducción al Análisis de Datos con R*. <https://rubenfcasal.github.io/intror>.
+
+
+Cursos de simulación
+
+- *Simulación Monte Carlo y Métodos Bayesianos*. Centro de Supercomputación de Galicia. Santiago de Compostela, noviembre de 2012.
+
+- Fernández-Casal R. y Cao R. (2020). *Simulación Estadística*. <https://rubenfcasal.github.io/simbook>.
+
+[Máster interuniversitario en Técnicas Estadísticas](http://eio.usc.es/pub/mte)
+
+- Fernández-Casal R. y Costa J. (2020). *Aprendizaje Estadístico*. <https://rubenfcasal.github.io/aprendizaje_estadistico>.
+
+- Cao R. y Fernández-Casal R. (2020). *Técnicas de Remuestreo* <https://rubenfcasal.github.io/book_remuestreo>.
+
+- López-Taboada y Fernández-Casal R. (2020). *Prácticas de Tecnologías de Gestión y Manipulación de Datos*. <https://gltaboada.github.io/tgdbook>.
+
+- Cotos-Yáñez T.R., Fernández-Casal R. y García-Soidán P. (20XX). *Estadística Espacial con R*.
+
+[Máster interuniversitario en Biología Marina](http://masterbiologiamarina.uvigo.es)
+
+- Estadística Espacial y Modelización
+
+    - [Diagnosis de la independencia](https://rubenfcasal.github.io/post/diagnosis-de-la-independencia)
+    
+    - [Introducción a la Geoestadística con `geoR`](https://rubenfcasal.github.io/post/introducci%C3%B3n-a-la-geoestad%C3%ADstica-con-geor)
+
+
+<!-- 
+Fernández-Casal R. y Cotos-Yáñez T.R. (2018). *Escritura de libros con bookdown*. <https://rubenfcasal.github.io/bookdown_intro>. 
+-->
