@@ -64,7 +64,8 @@ Fernandez-Casal R. (2019). [`npsp`: Nonparametric Spatial Statistics](https://ru
 
 - [Geoestadistica no parametrica con el paquete `npsp`](https://rubenfcasal.github.io/npsp/articles/docs/aquifer.html)
 
-- [Nonparametric Spatial Data Analysis with the `npsp` Package](https://rubenfcasal.github.io/npsp/articles/npsp.html)
+- [Nonparametric Spatial Data Analysis with the `npsp` Package](https://rubenfcasal.github.io/npsp/articles/npsp.html) (primera versión),
+ [segunda version borrador](./npsp_intro2.html).
 
 Castillo-Páez, S. (2017). [Aportaciones a la Geoestadística no paramétrica](http://hdl.handle.net/11093/789). Tesis doctoral (UVigo). Directores: Pilar García-Soidán, Rubén Fernández-Casal.
 
@@ -101,7 +102,7 @@ Métodos boostrap no paramétricos para procesos espaciales y aplicación a la c
 
 - Castillo-Páez S., Fernández-Casal R. and García-Soidán P. (2019). [A nonparametric bootstrap method for spatial data](https://doi.org/10.1016/j.csda.2019.01.017), *Computational Statistics and Data Analysis*, **137**, 1-15. 
 
-- Fernández-Casal R., Castillo-Páez S. and Francisco-Fernández M. (2018). [Nonparametric approximation of conditional risk in non-stationary geostatistical processes](./Posters/2018 - Nonparametric approximation of conditional risk in non-stationary geostatistical processes - METMA9). 9th Workshop on Spatio-temporal modeling (METMA 9). Montpellier, France.
+- Fernández-Casal R., Castillo-Páez S. and Francisco-Fernández M. (2018). [Nonparametric approximation of conditional risk in non-stationary geostatistical processes](./Posters/2018 - Nonparametric approximation of conditional risk in non-stationary geostatistical processes - METMA9.pdf). 9th Workshop on Spatio-temporal modeling (METMA 9). Montpellier, France.
 
 
 ### Procesos espaciales heterocedásticos
@@ -118,6 +119,7 @@ Posters:
 
 - Fernández-Casal R., Castillo-Páez S. and García-Soidán P. (2017). [A nonparametric resampling method for heteroscedastic geostatistical processes](./Posters/2017 - Nonparametric Bootstrap Approach for Risk Mapping under Heteroscedasticity - SPAT17.pdf). Spatial Statistics Conference 2017: One World: One Health. Lancaster, UK.
 
+<!-- 2017%20-%20Nonparametric%20Bootstrap%20Approach%20for%20Risk%20Mapping%20under%20Heteroscedasticity%20%20-%20SPAT17.pdf -->
 
 ## Temas abiertos
 
